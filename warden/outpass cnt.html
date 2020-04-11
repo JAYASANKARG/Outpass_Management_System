@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+table{
+  background-color: white;
+ border:1px solid black;
+ margin-top: 70px;
+border-radius: 15px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+#demo {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+#demo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 70%;
+    display: block;
+    margin-bottom: 2%;
+
+    
+  }
+  .card{
+    padding:0;
+  }
+}
+
+  
+}
+.card:hover{
+
+  box-shadow: 0 14px 28px skyblue, 0 10px 10px rgba(0,0,0,0.22);
+
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 blue;
+  padding: 8%;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 15px 15px 15px 15px;
+}
+table{
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+
+  .card{
+   
+    max-height: 1%; 
+    text-align: center;
+    border-radius: 8px 8px 8px 8px;
+    padding: 2%;
+
+
+
+}
+.column{
+  padding-left: 20%;
+  width: 80%;
+  text-align: center;
+ 
+}
+table{
+  background-color: white;
+  padding: 0;
+
+}
+th{
+  font-weight: bolder; 
+}
+  
+}
+</style>
+</head>
+<body>
+
+<center><h1>Out pass count and details</h1></center>
+
+
+<div id="demo">
+  <div class="column">
+    <div class="card " id="card1">
+      <h3>Applied -6</h3>
+      
+      
+    </div>
+  </div>
+ 
+
+  
+
+
+  <div class="column">
+    <div class="card">
+      <h3>Pending -6</h3>
+       
+     
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Approved -6</h3>
+     
+      
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Rejected -6</h3>
+       
+
+      
+    </div>
+  </div>
+</div>
+<div style="overflow-x:auto;">
+<table cellpadding="10">
+    
+      <tr>
+      <th><i class="far fa-user">&nbsp;&nbsp;Indhumathi</i> </th>
+        <th><i class="far fa-clock">&nbsp;&nbsp;12.30pm</i></th>
+        <th><i class="far fa-calendar-alt">&nbsp;&nbsp;12.03.2020</i></th>
+        <th><i class="fas fa-map-marker-alt">&nbsp;&nbsp;Salem</i></th>
+        <th><i class="far fa-question-circle">&nbsp;&nbsp;rejected</i></th>
+      </tr>
+      <th><i class="far fa-user">&nbsp;&nbsp;Indhumathi</i> </th>
+        <th><i class="far fa-clock">&nbsp;&nbsp;12.30pm</i></th>
+        <th><i class="far fa-calendar-alt">&nbsp;&nbsp;12.03.2020</i></th>
+        <th><i class="fas fa-map-marker-alt">&nbsp;&nbsp;Salem</i></th>
+        <th><i class="far fa-question-circle">&nbsp;&nbsp;rejected</i></th>
+      </tr>
+      <tr>
+      <th><i class="far fa-user">&nbsp;&nbsp;Indhumathi</i> </th>
+        <th><i class="far fa-clock">&nbsp;&nbsp;12.30pm</i></th>
+        <th><i class="far fa-calendar-alt">&nbsp;&nbsp;12.03.2020</i></th>
+        <th><i class="fas fa-map-marker-alt">&nbsp;&nbsp;Salem</i></th>
+        <th><i class="far fa-question-circle">&nbsp;&nbsp;rejected</i></th>
+      </tr>
+        
+  </table>
+</div>
+
+
+
+
+
+</body>
+</html>
